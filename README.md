@@ -1,10 +1,12 @@
+![Image - Logo Huzzah](https://anabear.github.io/Huzzah//assets/images/cover_readme.png)
+
 # Huzzah | A memory game with cocktails
 
 Huzzah is a memory game that will allow users to engage with the data, take action that will allow 
-the users to move between levels and will provide information that will help the users to achieve their goals.
-The site will contain 3 pages: Home page with the memory game, Contact form and Instructions page.
+the users to move between levels and will provide information that will help the users to achieve 
+heir goals. The site will contain 4 pages: Home page, Game page, Contact page and Instructions page.
 
-**A live demo of the website can [**be found here**](https://anabear.github.io/Huzzah/)**.
+**A live demo of the website [**can be found here**](https://anabear.github.io/Huzzah/)**.
 
 ------
 
@@ -35,10 +37,6 @@ The site will contain 3 pages: Home page with the memory game, Contact form and 
 
 ------
 
-## Introduction
-
-------
-
 ## UX
 
 ### Website Goals
@@ -60,11 +58,11 @@ Some of the details that show on the wireframes were changed during the process 
 * These changes are:
         
 
-* This is the [**PDF version of the wireframes**]().
-* This is the [**.png mobile version of the wireframes**]().
-* This is the [**.png desktop version of the wireframes**]().
-* This is the [**.png ipad home page version of the wireframe**]().
-* These wireframes are also stored in the [wireframes directory]().
+* This is the [**PDF version with all the wireframes**](https://drive.google.com/drive/folders/17jDVXZscPY018-Hd0jZA3--5V9EcGl6N?usp=sharing).
+* This is the [**.png mobile version of the wireframes**](https://drive.google.com/file/d/1lv1h_QryJDawWz8sIOwqZzUiDFIAQz7j/view?usp=sharing).
+* This is the [**.png desktop version of the wireframes**](https://drive.google.com/file/d/1xpHnrqGE-_osz59l_Gr4S-JsJgNrLlp9/view?usp=sharing).
+* This is the [**.png tablet version of the wireframes**](https://drive.google.com/file/d/1D8uzYeD0F7PvLSppVLPF4wvF_8KIMQ90/view?usp=sharing).
+* These wireframes are also stored in the [wireframes directory](https://github.com/anabear/Huzzah/blob/3e6e055b59fbcfa899907513be2218618ee88674/wireframes).
 
 ------
 
@@ -196,7 +194,7 @@ For further reading and troubleshooting on cloning a repository from GitHub
 
 ### Acknowledgements
 
-* The websites [w3schools](www.w3schools.com), [bootstrap](getbootstrap.com), [stackoverflow](stackoverflow.com), 
+* The websites [w3schools](https://www.w3schools.com/), [bootstrap](https://getbootstrap.com/), [stackoverflow](https://stackoverflow.com/), 
     [css-tricks](https://css-tricks.com/) and [W3C](https://www.w3.org/) helped me every time i got stuck or wasn't sure 
     what was the best option for what I needed to do. 
 * Thank you to my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his support and guidance. 
