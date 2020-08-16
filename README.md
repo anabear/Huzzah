@@ -41,28 +41,63 @@ heir goals. The site will contain 4 pages: Home page, Game page, Contact page an
 
 ### Website Goals
 
+* Provide clear feedback and next steps to the users, so they find it easy to navigate through the game.
+* Provide access to all the information related to the game, and links that are easily noticed. 
+* Provide the same experience accessing the website from a browser or mobile.
+* Make the website look credible and trustworthy.
+* Provide the users with an engaging memory game, that would challenge the users memory and would catch their attention
+    to want to spend more time on the website and improve their game timing.
+* Provide information about the game rules with instructions on how to play the game. 
+* Provide a contact form so individuals can get in contact with the team if they have any requests about the game or want 
+    to report any issues.
+
 ### User Stories
+
+* As a user, I want to see a game that is stimulating, enjoyable, and challenging.
+* As a user, I want to be able to chose if I want the game to have any sounds or not. 
+* As a user, I want to see a game that has warm colours, intuitive design. 
+* As a user, I want to see a website that is easy to navigate.
+* As a user, I want to see clear prompts, reactions, or next steps between levels. 
+* As a user, I want to have the same experience accessing the website from a browser or mobile.
+* As a user, I want to see instructions that would explain how to play the game.
+* As a user, I want to see a contact page, so I can contact the owner if I have any questions, requests, or if I want to report
+    an error I might encounter.
 
 ### Design Choices
 
-* **Fonts chosen**:
+* **Fonts chosen**: Open Sans and Source Sans Pro - as I want the text to be easy to read on all devices, provide a consistent 
+    content through the game, and the main focus to be the game and not the fonts.
 
-* **Colours chosen**:
+* **Colours chosen**: I will use a combination of 4 colours across the website pages: teal, wheat, dark golden, and dark grey. 
+    As I chose the theme of the website and game to be beach and cocktails related, I felt that these colours go well with the 
+    theme of the website. 
 
-* **Layout chosen**: 
+    ![Colours combination](https://screenshot.click/16_02-cgr09-oithf.png)
+
+    When the user selects the correct cards, or they fail to find the matching cards, there will be symbols showing up, 🅇 and ✅ ,
+    which will be red and green. The respective cards border will also show these colours.  
+
+    Colours were also chosen based on the [video game console palettes list from Wikipedia](https://en.wikipedia.org/wiki/List_of_video_game_console_palettes#NES).
+
+* **Layout chosen**: intuitive, easy to navigate, with a menu available on the main page, a back button on each page, that would 
+    bring the user on the main, front page. Buttons and links will have a hover effect, that will allow the user to know an action 
+    was taken when the buttons and links are clicked. The logo will also provide a link to the main page, in case the user would like
+    to access the main page easily. 
+
 
 ### Wireframes
 
 As part of the development process I created  wireframes for my website using the [Balsamiq tool](https://balsamiq.com/wireframes/desktop/#). 
 Some of the details that show on the wireframes were changed during the process of building the website because ... reasons. 
 * These changes are:
-        
+    * eg1
+    * eg2
 
 * This is the [**PDF version with all the wireframes**](https://drive.google.com/drive/folders/17jDVXZscPY018-Hd0jZA3--5V9EcGl6N?usp=sharing).
 * This is the [**.png mobile version of the wireframes**](https://drive.google.com/file/d/1lv1h_QryJDawWz8sIOwqZzUiDFIAQz7j/view?usp=sharing).
 * This is the [**.png desktop version of the wireframes**](https://drive.google.com/file/d/1xpHnrqGE-_osz59l_Gr4S-JsJgNrLlp9/view?usp=sharing).
 * This is the [**.png tablet version of the wireframes**](https://drive.google.com/file/d/1D8uzYeD0F7PvLSppVLPF4wvF_8KIMQ90/view?usp=sharing).
-* These wireframes are also stored in the [wireframes directory](https://github.com/anabear/Huzzah/blob/3e6e055b59fbcfa899907513be2218618ee88674/wireframes).
+* These wireframes are also stored in the [wireframes directory](https://github.com/anabear/Huzzah/blob/379c2c204cdabe477d40b0100d479ace171701a1/wireframes).
 
 ------
 
@@ -70,7 +105,29 @@ Some of the details that show on the wireframes were changed during the process 
 
 ### Existing Features
 
+* The game will have a responsive design, focused on mobile-first design as users are expected to play the game on any device available.
+* User-friendly display with intuitive, easy to navigate design.
+* Engaging, timed level game. 10 Levels available with increasing difficulty. 
+* **Notifications** - showing the user how they are doing after each level is achieved or lost. Congratulations/Finish Banner.
+* **Timer** - that would stimulate and challenge the user to finish the level within specific time.
+* **Audio button** - that will allow the user to control the sound of the game.
+* **Start game button** - that would allow the user to choose if they want to first read the instructions before starting the game.
+* **Back button** - that would allow the user to easily get back to the main page, before the game starts.
+* **Instructions page** - that would provide the game rules and any other information that would be useful for the user. 
+* **Contact page form** - functional, easy to fill, form validation to ensure accurate information is entered, form submission confirmation
+    that will confirm to the user that their submission was successfully sent. The form submissions are delivered to the website owner's 
+    inbox with its contents.
+
 ### Future Features
+
+* More sounds available, for different levels.
+* Create easy/medium/hard difficulty with the introduction of lives (3 to start), reduced time to complete the level, more types of 
+    images to match and a greater amount of cards from the start, more than level 10 on the existing features.
+* Allow the user to choose their timer, and level.
+* Ability to pause the game and save current level. Restart the game from where the user left off. 
+* Automated level switch, and change of background between levels.
+* Give the user the option to play different themed memory cards games.
+* Allow multi-players and provide a leader board.
 
 ------
 
@@ -93,7 +150,6 @@ Some of the details that show on the wireframes were changed during the process 
   * Used for the ‘Source Sans Pro’ and ‘Open Sans’ fonts used within the website.
 * [Contrast-ratio](Contrast-ratio.com) 
   * Used to test the visibility of the text with the background color.
-*  
 
 ### Framework 
 
@@ -130,7 +186,7 @@ Some of the details that show on the wireframes were changed during the process 
 
 ## Testing
 
-The test procedures and the key issues of the tests are written in the file [TEST.md]().
+The test procedures and the key issues of the tests are written in the file [TEST.md](https://github.com/anabear/Huzzah/blob/379c2c204cdabe477d40b0100d479ace171701a1/TESTS.md).
 
 ### Bugs
 
