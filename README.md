@@ -1,4 +1,4 @@
-![Image - Logo Huzzah](https://anabear.github.io/Huzzah//assets/images/cover_readme.png)
+![Image - Logo Huzzah](https://anabear.github.io/Huzzah//assets/images/general/cover_readme.png)
 
 # Huzzah | A memory game with cocktails
 
@@ -66,7 +66,8 @@ heir goals. The site will contain 4 pages: Home page, Game page, Contact page an
 ### Design Choices
 
 * **Fonts chosen**: Open Sans and Source Sans Pro - as I want the text to be easy to read on all devices, provide a consistent 
-    content through the game, and the main focus to be the game and not the fonts.
+    content through the game, and the main focus to be the game and not the fonts. I will also use 'Caesar Dressing' for the header title,
+    as this font is the same one as the one used on the logo. 
 
 * **Colours chosen**: I will use a combination of 4 colours across the website pages: teal, wheat, dark golden, and dark grey. 
     As I chose the theme of the website and game to be beach and cocktails related, I felt that these colours go well with the 
@@ -107,7 +108,7 @@ Some of the details that show on the wireframes were changed during the process 
 
 * The game will have a responsive design, focused on mobile-first design as users are expected to play the game on any device available.
 * User-friendly display with intuitive, easy to navigate design.
-* Engaging, timed level game. 10 Levels available with increasing difficulty. 
+* Engaging, timed level game. 5 Levels available with increasing difficulty. 
 * **Notifications** - showing the user how they are doing after each level is achieved or lost. Congratulations/Finish Banner.
 * **Timer** - that would stimulate and challenge the user to finish the level within specific time.
 * **Audio button** - that will allow the user to control the sound of the game.

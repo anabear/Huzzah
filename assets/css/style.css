@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Source+Sans+Pro:wght@300;400;700&family=Caesar+Dressing:wght@400&display=swap');
+
+/*---------------------------- Body */
+
+body {
+    font-family: "Source Sans Pro", "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------- Grouped font/layout/background imgs */
+
+h1 {
+    font-family: "Caesar Dressing", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", sans-serif;
+}
+
+/*---------------------------- NavBar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    background-color: #065471;
+    border: 0;
+    width: 100%;
+}
+
+.navbar .navbar-toggler {
+    color: #ffc541;
+    border-color: #ffc541;
+    border-style: solid;
+    border: 2px #ffc541;
+}
+
+.navbar .navbar-nav a {
+    color: #ffc541;
+}
+
+.navbar .navbar-nav a:hover {
+    color: #c57f1e;
+    font-weight: normal;
+}
+
+.nav-title {
+    color: #ffc541;
+    font-weight: bold;
+    left: 40%;
+    position: absolute;
+}
+
+/*---------------------------- Footer */
+
+footer {
+    background-color: #065471;
+    margin: 0;
+    bottom: 0;
+    padding-top: 4px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.f-text {
+    color: #ffc541;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.s-links li a i {
+    width: 10px;
+    font-size: 18px;
+    line-height: 5px;
+    text-align: center;
+    color: #ffc541;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.s-links li a i:hover {
+    color: #c57f1e;
+}
+
+/*----------------------------  */
