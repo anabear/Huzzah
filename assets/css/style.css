@@ -8,6 +8,10 @@ body {
     padding: 0;
 }
 
+body, html {
+    height: 100%;
+}
+
 /*---------------------------- Grouped font/layout/background imgs */
 
 h1 {
@@ -22,6 +26,44 @@ h6 {
     font-family: "Open Sans", sans-serif;
 }
 
+.bg-img-def {
+   height: 100%;
+  
+   background: url('../images/bg-images/bg-image-0.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   overflow: auto;
+}
+
+/*---------------------------- Buttons - inspired from my MS1 */
+
+.btn--cta {
+    border-radius: 15px;
+    display: inline-block;
+    margin: 2px;
+    width: 110px;
+    text-align: center;
+}
+
+.btn--abc {
+    color: #2f3847;
+    background-color: #c57f1e;
+    border-color: #c57f1e;
+}
+
+.btn--abc:hover,
+.btn--abc:active,
+.btn--abc:focus,
+.btn--abc:active:focus {
+    color: #2f3847;
+    background-color: #b36e07;
+    border-color: #b36e07;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
 /*---------------------------- NavBar */
 
 .navalert-container {
@@ -31,28 +73,14 @@ h6 {
     z-index: 1;
     padding-left: 0;
     padding-right: 0;
+    display: block;
 }
 
 .navbar {
     background-color: #065471;
+    background: rgba(6, 84, 113, 0.5);
     border: 0;
     width: 100%;
-}
-
-.navbar .navbar-toggler {
-    color: #ffc541;
-    border-color: #ffc541;
-    border-style: solid;
-    border: 2px #ffc541;
-}
-
-.navbar .navbar-nav a {
-    color: #ffc541;
-}
-
-.navbar .navbar-nav a:hover {
-    color: #c57f1e;
-    font-weight: normal;
 }
 
 .nav-title {
@@ -66,26 +94,26 @@ h6 {
 
 footer {
     background-color: #065471;
+    background: rgba(6, 84, 113, 0.5);
     margin: 0;
     bottom: 0;
     padding-top: 4px;
     position: absolute;
     width: 100%;
-    text-align: center;
+    display: block;
 }
 
 .f-text {
-    color: #ffc541;
-    font-size: 18px;
-    margin-top: 5px;
+    color: #2f3847;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;    
 }
 
 .s-links li a i {
-    width: 10px;
-    font-size: 18px;
-    line-height: 5px;
-    text-align: center;
-    color: #ffc541;
+    width: 8px;
+    font-size: 20px;
+    color: #2f3847;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -96,4 +124,29 @@ footer {
     color: #c57f1e;
 }
 
-/*----------------------------  */
+/*----------------------------  Contact Page */
+
+.cont-form { 
+    color: #ffffff;
+    background: rgba(250, 250, 250, 0.5);
+    border-color: #c57f1e;
+    font-size: 18px;
+    margin: 90px 0 60px 0;
+}
+
+.form-header {
+    color: #2f3847;
+}
+
+.md-form {
+    color: #2f3847;
+    text-align: left;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+}
+
+/*----------------------------  Instructions Page */
+

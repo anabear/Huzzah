@@ -66,8 +66,8 @@ heir goals. The site will contain 4 pages: Home page, Game page, Contact page an
 ### Design Choices
 
 * **Fonts chosen**: Open Sans and Source Sans Pro - as I want the text to be easy to read on all devices, provide a consistent 
-    content through the game, and the main focus to be the game and not the fonts. I will also use 'Caesar Dressing' for the header title,
-    as this font is the same one as the one used on the logo. 
+    content through the game, and the main focus to be the game and not the fonts. I will also use 'Caesar Dressing' for the navigation
+    title, as this font is the one used on the logo. 
 
 * **Colours chosen**: I will use a combination of 4 colours across the website pages: teal, wheat, dark golden, and dark grey. 
     As I chose the theme of the website and game to be beach and cocktails related, I felt that these colours go well with the 
@@ -247,6 +247,9 @@ For further reading and troubleshooting on cloning a repository from GitHub
 
 ### Source of codes
 
+* Contact page form code was inspired from [mdbootstrap](https://mdbootstrap.com/docs/jquery/sections/contact/). Contact form JS alert response 
+    and sending the contact form messages to my email address JS code created with the help of 'Sending Emails Using EmailJS' Code institute module 
+    and [emailjs.com](https://www.emailjs.com/docs/tutorial/creating-contact-form/).
 * 
 
 ### Acknowledgements

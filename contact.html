@@ -1,54 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Huzzah</title>
     <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
     <!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
     <!-- STYLE CSS -->
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Huzzah</title>
-</head>
-<body>
-	<div class="container-fluid">
-		<!--Navbar built with the help of bootstrap-->
-		<nav class="navbar navbar-expand-lg fixed-top">
-			<a class="navbar-brand" href="index.html"><img src="assets/images/general/logo_nn.png"
-                class="img-fluid"
-                alt="Logo Huzzah image"/>
-            </a>
-			<h1 class="nav-title text-center">Huzzah</h1>
-		</nav>
-	</div>
-	<!-- /.Navbar end -->
-	<!-- Footer -->
-	<footer class="container-fluid">
-		<div id="footer" class="row justify-content-end">
-			<!-- Copyright -->
-			<div class="col-8 f-text">
-				<p class="copyright">&copy;2020 Ana Butler</p>
-			</div>
-			<!-- /.Copyright -->
-			<!-- Footer Social Media -->
-			<div class="col-4">
-				<ul class="s-links">
-					<li class="list-inline-item"><a href="https://github.com/anabear" target="_blank"
-						aria-hidden="true"><i class="fab fa-github-square"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/anamaria-butler" 
-                        target="_blank" aria-hidden="true"><i class="fab fa-linkedin"></i></a></li>
-				</ul>
-			</div>
-			<!-- /.Footer Social Media -->
-		</div>
-	</footer>
-	<!-- /.Footer end -->
-	<!--Link to Bootstrap CDN-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</body>
-</html> 
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- EmailJS SDK - inspired from Code institute module 'Sending Emails Using EmailJS' & emailjs.com -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_dJV08h8lqimf1NF2ZVn3Q");
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="bg-img-def">
+      <div class="container-fluid navalert-container">
+        <!--Navbar built with the help of bootstrap-->
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="assets/images/general/logo_transparent_nn.png"
+              class="img-fluid"
+              alt="Logo Huzzah image"
+            />
+          </a>
+          <h1 class="nav-title text-center">Huzzah</h1>
+        </nav>
+      </div>
+      <!-- /.Navbar end -->
+      <!-- Contact form created with the help of bootstrap, stackoverflow, w3schools and mdbootstrap.com -->
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center h-100">
+          <div class="col col-xl-6 col-lg-6 col-md-12">
+            <form onsubmit="return sendMail(this);">
+              <div class="card cont-form">
+                <div class="form-header">
+                  <h2 class="mt-2 text-center">Contact us</h2>
+                </div>
+                <div class="card-body">
+                  <div class="md-form">
+                    <label for="fname">First and Last Name *</label>
+                    <input
+                      type="text"
+                      id="name"
+                      class="input-field"
+                      name="name"
+                      aria-label="Your full name"
+                      required
+                    />
+                  </div>
+                  <div class="md-form">
+                    <label for="email">Email address *</label>
+                    <input
+                      type="email"
+                      id="emailaddress"
+                      class="input-field"
+                      name="emailaddress"
+                      aria-label="Your email"
+                      required
+                    />
+                  </div>
+                  <div class="md-form">
+                    <label for="subject">Subject *</label>
+                    <input
+                      type="text"
+                      id="subject"
+                      class="input-field"
+                      name="subject"
+                      aria-label="Subject"
+                      required
+                    />
+                  </div>
+                  <div class="md-form">
+                    <label for="inquiry">Inquiry *</label>
+                    <textarea
+                      rows="5"
+                      id="inquiry"
+                      class="input-field"
+                      name="inquiry"
+                      aria-label="Inquiry"
+                      required
+                    ></textarea>
+                  </div>
+                  <div>
+                    <a
+                      class="btn btn--abc btn--cta btn-warning"
+                      href="index.html"
+                      aria-label="Back button"
+                      ><i class="fas fa-arrow-circle-left"> Back</i></a
+                    >
+                    <button
+                      type="submit"
+                      value="Send"
+                      aria-label="Send"
+                      class="btn btn--abc btn--cta btn-warning"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.Contact form end -->
+    <!-- Footer -->
+    <footer class="container-fluid">
+      <div id="footer" class="row justify-content-end">
+        <!-- Copyright -->
+        <div class="col-8 f-text">
+          <p class="copyright">&copy;2020 Ana Butler</p>
+        </div>
+        <!-- /.Copyright end -->
+        <!-- Footer Social Media -->
+        <div class="col-4">
+          <ul class="s-links">
+            <li class="list-inline-item">
+              <a
+                href="https://github.com/anabear"
+                target="_blank"
+                aria-hidden="true"
+                ><i class="fab fa-github-square"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://www.linkedin.com/in/anamaria-butler"
+                target="_blank"
+                aria-hidden="true"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.Footer Social Media end -->
+      </div>
+    </footer>
+    <!-- /.Footer end -->
+    <!--Link to Bootstrap CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!--Link to JS sendEmail Script-->
+    <script src="assets/js/sendEmail.js"></script>
+  </body>
+</html>
