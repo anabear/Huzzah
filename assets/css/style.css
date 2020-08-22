@@ -26,6 +26,14 @@ h6 {
     font-family: "Open Sans", sans-serif;
 }
 
+a {
+    color: #c57f1e;
+}
+
+a:hover {
+    color:#b36e07
+}
+
 .bg-img-def {
    height: 100%;
   
@@ -124,21 +132,21 @@ footer {
     color: #c57f1e;
 }
 
-/*----------------------------  Contact Page */
+/*----------------------------  Contact / Instructions / Index Page */
 
 .cont-form { 
     color: #ffffff;
-    background: rgba(250, 250, 250, 0.5);
+    background: rgba(250, 250, 250, 0.7);
     border-color: #c57f1e;
     font-size: 18px;
-    margin: 90px 0 60px 0;
+    margin: 120px 0 80px 0;
 }
 
 .form-header {
     color: #2f3847;
 }
 
-.md-form {
+.md-form, #instruc {
     color: #2f3847;
     text-align: left;
 }
@@ -148,5 +156,4 @@ footer {
     padding: 10px;
 }
 
-/*----------------------------  Instructions Page */
-
+/*----------------------------  Game Page */

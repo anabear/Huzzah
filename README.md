@@ -66,7 +66,7 @@ heir goals. The site will contain 4 pages: Home page, Game page, Contact page an
 ### Design Choices
 
 * **Fonts chosen**: Open Sans and Source Sans Pro - as I want the text to be easy to read on all devices, provide a consistent 
-    content through the game, and the main focus to be the game and not the fonts. I will also use 'Caesar Dressing' for the navigation
+    content through the game, and the main focus to be the game and not the fonts. I will also use 'Caesar Dressing' for the 
     title, as this font is the one used on the logo. 
 
 * **Colours chosen**: I will use a combination of 4 colours across the website pages: teal, wheat, dark golden, and dark grey. 
@@ -187,7 +187,8 @@ Some of the details that show on the wireframes were changed during the process 
 
 ## Testing
 
-The test procedures and the key issues of the tests are written in the file [TEST.md](https://github.com/anabear/Huzzah/blob/379c2c204cdabe477d40b0100d479ace171701a1/TESTS.md).
+The test procedures and the key issues of the tests are written in the file 
+    [TEST.md](https://github.com/anabear/Huzzah/blob/379c2c204cdabe477d40b0100d479ace171701a1/TESTS.md).
 
 ### Bugs
 
