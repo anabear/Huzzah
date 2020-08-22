@@ -26,12 +26,12 @@ h6 {
     font-family: "Open Sans", sans-serif;
 }
 
-a {
+.cont-link {
     color: #c57f1e;
 }
 
-a:hover {
-    color:#b36e07
+.cont-link:hover {
+    color:#b36e07;
 }
 
 .bg-img-def {
@@ -91,10 +91,21 @@ a:hover {
     width: 100%;
 }
 
-.nav-title {
+.nav-title a {
     color: #ffc541;
     font-weight: bold;
     left: 40%;
+    top: 8px;
+    text-decoration: none;
+    position: absolute;
+}
+
+.nav-title a:hover {
+    color: #ffc541;
+    font-weight: bold;
+    left: 40%;
+    top: 8px;
+    text-decoration: none;
     position: absolute;
 }
 
